@@ -4,6 +4,7 @@ type: theme
 starterkit: true
 version: VERSION
 libraries:
+  - fluffiness/global-styling
   - fluffiness/base
   - fluffiness/messages
   - core/normalize
