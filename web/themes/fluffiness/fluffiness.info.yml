@@ -1,6 +1,6 @@
 name: fluffiness
 type: theme
-'base theme': stable9
+"base theme": stable9
 starterkit: true
 version: VERSION
 libraries:
@@ -19,4 +19,18 @@ libraries-extend:
   core/drupal.progress:
     - fluffiness/progress
 core_version_requirement: ^10
-generator: 'starterkit_theme:10.2.0'
+generator: "starterkit_theme:10.2.0"
+regions:
+  header: "Header"
+  primary_menu: "Primary menu"
+  secondary_menu: "Secondary menu"
+  highlighted: "Highlighted"
+  help: "Help"
+  content: "Content"
+  sidebar_first: "Left sidebar"
+  sidebar_second: "Right sidebar"
+  footer: "Footer"
+  breadcrumb: "Breadcrumb"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
+  super_region: "Super Region"
