@@ -1,7 +1,7 @@
 const colors = require("tailwindcss/colors");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./templates/**/*.html.twig"],
+  content: ["./templates/**/*.twig"],
   theme: {
     colors: {
       transparent: "transparent",
